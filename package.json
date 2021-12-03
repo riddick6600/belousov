@@ -1,0 +1,36 @@
+{
+    "name": "startp",
+    "version": "3.5.0",
+    "description": "StartP - React Next IT Startup & Digital Agency Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "author": "EnvyTheme.com",
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "axios": "^0.21.4",
+        "next": "^12.0.4",
+        "nodemailer": "^6.7.1",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "react": "^17.0.2",
+        "react-accessible-accordion": "^3.3.5",
+        "react-dom": "^17.0.2",
+        "react-feather": "^2.0.9",
+        "react-hook-form": "^6.15.8",
+        "react-masonry-component": "^6.3.0",
+        "react-owl-carousel3": "^2.2.5",
+        "react-redux": "^7.2.6",
+        "react-slick": "^0.28.1",
+        "react-tabs": "^3.2.3",
+        "react-toast-notifications": "^2.5.1",
+        "redux": "^3.6.0",
+        "redux-devtools-extension": "^2.13.9",
+        "sass": "^1.43.4",
+        "sweetalert2": "^10.16.9",
+        "sweetalert2-react-content": "^3.3.3"
+    },
+    "license": "MIT"
+}
