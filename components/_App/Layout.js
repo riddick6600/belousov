@@ -1,24 +1,22 @@
-import React from 'react'
-import Head from "next/head"
-import GoTop from './GoTop'
-import Sidebar from './Sidebar'
- 
+import React from "react";
+import Head from "next/head";
+import GoTop from "./GoTop";
+import Sidebar from "./Sidebar";
+
 const Layout = ({ children }) => {
-    return(
-        <>
-            <Head>
-                <meta charSet="utf-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <title>StartP - React Next IT Startup & Digital Agency Template</title>
-            </Head>
-            
-            {children}
+  return (
+    <>
+      <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ИП Белоусов</title>
+      </Head>
 
-            <GoTop scrollStepInPx="100" delayInMs="10.50" />
+      {children}
 
-            <Sidebar />
-        </>
-    )
-}
+      <GoTop scrollStepInPx="100" delayInMs="10.50" />
+    </>
+  );
+};
 
-export default Layout
+export default Layout;
