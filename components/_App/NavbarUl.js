@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "@/utils/ActiveLink";
+import Link from "@utils/ActiveLink";
 
 const NavbarUl = () => {
   return (
@@ -15,8 +15,18 @@ const NavbarUl = () => {
         </Link>
       </li>
       <li className="nav-item">
+        <Link href="/phone" activeClassName="active">
+          <a className="nav-link">Телефония</a>
+        </Link>
+      </li>
+      <li className="nav-item">
         <Link href="/design" activeClassName="active">
           <a className="nav-link">Дизайн</a>
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link href="/audit" activeClassName="active">
+          <a className="nav-link">Аудит</a>
         </Link>
       </li>
       <li className="nav-item">
@@ -24,7 +34,11 @@ const NavbarUl = () => {
           <a className="nav-link">Ремонт</a>
         </Link>
       </li>
-      Дизайн Аудит Телефония Контакты
+      <li className="nav-item">
+        <Link href="/contact" activeClassName="active">
+          <a className="nav-link">Контакты</a>
+        </Link>
+      </li>
     </ul>
   );
 };

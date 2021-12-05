@@ -1,19 +1,19 @@
-import "@/public/css/bootstrap.min.css";
+import "@public/css/bootstrap.min.css";
 import "animate.css";
-import "@/public/css/boxicons.min.css";
-import "@/public/css/flaticon.css";
-import "@/public/css/slick.css";
+import "@public/css/boxicons.min.css";
+import "@public/css/flaticon.css";
+import "@public/css/slick.css";
 import "react-accessible-accordion/dist/fancy-example.css";
-import "@/public/css/style.css";
-import "@/public/css/responsive.css";
-import "@/public/css/rtl.css";
+import "@public/css/style.css";
+import "@public/css/responsive.css";
+import "@public/css/rtl.css";
 import React from "react";
 import Head from "next/head";
-import GoTop from "@/components/_App/GoTop";
-import Navbar from "@/components/_App/Navbar";
-import Footer from "@/components/_App/Footer";
-
+import GoTop from "@components/_App/GoTop";
+import Navbar from "@components/_App/Navbar";
+import Footer from "@components/_App/Footer";
 import { ToastProvider } from "react-toast-notifications";
+import { NAME } from "@constants";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -25,10 +25,10 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>ZA-IT</title>
+        <title>{NAME}</title>
       </Head>
 
-      <Navbar transparent={pageProps.transparent} />
+      {!pageProps.hideNavbar && <Navbar transparent={pageProps.transparent} />}
 
       <Component {...pageProps} />
 

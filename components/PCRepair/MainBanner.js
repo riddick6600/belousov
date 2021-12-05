@@ -8,7 +8,9 @@ const MainBanner = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="repair-banner-content">
-              <h1>Ремонт серверов любой сложности</h1>
+              <h1>
+                Ремонт серверов <br /> любой сложности
+              </h1>
               <p>
                 Проведем диагностику и реанимируем любое устройство. Восстановим
                 утраченные данные. Снимем порчу с оборудования. Освятим код

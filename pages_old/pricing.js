@@ -1,29 +1,29 @@
-import React from 'react';
-import Navbar from "@/components/_App/Navbar";
-import Footer from "@/components/_App/Footer";
-import PageBanner from '@/components/Common/PageBanner';
-import PricingStyleOne from '@/components/PricingPlans/PricingStyleOne';
-import PricingStyleTwo from '@/components/PricingPlans/PricingStyleTwo';
-import PricingStyleFour from '@/components/PricingPlans/PricingStyleFour'; 
- 
+import React from "react";
+import Navbar from "@components/_App/Navbar";
+import Footer from "@components/_App/Footer";
+import PageBanner from "@components/Common/PageBanner";
+import PricingStyleOne from "@components/PricingPlans/PricingStyleOne";
+import PricingStyleTwo from "@components/PricingPlans/PricingStyleTwo";
+import PricingStyleFour from "@components/PricingPlans/PricingStyleFour";
+
 const Pricing = () => {
-    return (
-        <>
-            <Navbar />
+  return (
+    <>
+      <Navbar />
 
-            <PageBanner pageTitle="Pricing" />
+      <PageBanner pageTitle="Pricing" />
 
-            <PricingStyleOne />
+      <PricingStyleOne />
 
-            <PricingStyleTwo />
+      <PricingStyleTwo />
 
-            <div className="pt-80">
-                <PricingStyleFour />
-            </div> 
+      <div className="pt-80">
+        <PricingStyleFour />
+      </div>
 
-            <Footer />
-        </>
-    )
-}
+      <Footer />
+    </>
+  );
+};
 
 export default Pricing;

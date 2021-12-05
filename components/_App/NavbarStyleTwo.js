@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Link from "@/utils/ActiveLink";
+import Link from "@utils/ActiveLink";
 import * as Icon from "react-feather";
 
 const NavbarStyleTwo = () => {
@@ -32,7 +32,7 @@ const NavbarStyleTwo = () => {
       <div className="startp-nav">
         <div className="container">
           <nav className="navbar navbar-expand-md navbar-light">
-            <Link href="/it-startup">
+            <Link href="/">
               <a onClick={toggleNavbar} className="navbar-brand">
                 <img src="/images/logo.png" alt="logo" />
               </a>
@@ -64,7 +64,7 @@ const NavbarStyleTwo = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/it-startup" activeClassName="active">
+                  <Link href="/" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
                       Разработка
                     </a>

@@ -10,8 +10,19 @@ const MainBanner = () => {
             <div className="row h-100 justify-content-center align-items-center">
               <div className="col-lg-5">
                 <div className="hero-content">
-                  <h1>Разработка WEB приложений</h1>
-                  <p></p>
+                  <h1>WEB разработка</h1>
+                  <h1>по вашим правилам</h1>
+                  <p>
+                    Сайты, Сервисы, Приложения, Боты, Скраперы
+                    <br />
+                    Разработка, Поддержка
+                    <br />
+                    Администрирование, Аудит
+                  </p>
+
+                  <Link href="/contact">
+                    <a className="btn btn-secondary">Перезвоните мне</a>
+                  </Link>
                 </div>
               </div>
 

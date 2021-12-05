@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "@components/_App/Footer";
 
 const Custom404 = () => {
   return (
@@ -15,6 +16,7 @@ const Custom404 = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,24 +1,24 @@
-import React from 'react';
-import Navbar from "@/components/_App/Navbar";
-import Footer from "@/components/_App/Footer";
-import PageBanner from '@/components/Common/PageBanner';
-import OurFeatures from '@/components/Features/OurFeatures';
-import SingleFeatures from '@/components/Features/SingleFeatures';
- 
+import React from "react";
+import Navbar from "@components/_App/Navbar";
+import Footer from "@components/_App/Footer";
+import PageBanner from "@components/Common/PageBanner";
+import OurFeatures from "@components/Features/OurFeatures";
+import SingleFeatures from "@components/Features/SingleFeatures";
+
 const Features = () => {
-    return (
-        <>
-            <Navbar />
+  return (
+    <>
+      <Navbar />
 
-            <PageBanner pageTitle="Features" />
+      <PageBanner pageTitle="Features" />
 
-            <OurFeatures />
+      <OurFeatures />
 
-            <SingleFeatures />
- 
-            <Footer />
-        </>
-    )
-}
+      <SingleFeatures />
+
+      <Footer />
+    </>
+  );
+};
 
 export default Features;

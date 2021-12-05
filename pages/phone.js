@@ -15,7 +15,6 @@ import Footer from "@components/_App/Footer";
 const IOT = () => {
   return (
     <>
-      <Navbar />
       <MainBanner />
       <PartnerStyleTwo />
       <OurServices />
@@ -26,7 +25,6 @@ const IOT = () => {
       <Feedback />
       <WhyWeAreBest />
       <BlogPost />
-      <Footer />
     </>
   );
 };

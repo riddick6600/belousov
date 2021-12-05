@@ -15,7 +15,6 @@ import Footer from "@components/_App/Footer";
 const DigitalAgency = () => {
   return (
     <>
-      <NavbarStyleFive />
       <MainBanner />
       <WhatWeOffer />
       <AboutUsContent />

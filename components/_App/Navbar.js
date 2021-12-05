@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "@/utils/ActiveLink";
+import Link from "@utils/ActiveLink";
 import NavbarUl from "./NavbarUl";
 
 const Navbar = ({ transparent }) => {

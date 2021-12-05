@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Link from "@/utils/ActiveLink";
+import Link from "@utils/ActiveLink";
 import * as Icon from "react-feather";
+import NavbarUl from "@components/_App/NavbarUl";
 
 const NavbarStyleFour = () => {
   const [menu, setMenu] = React.useState(true);
@@ -35,9 +36,9 @@ const NavbarStyleFour = () => {
       <div className="startp-nav">
         <div className="container">
           <nav className="navbar navbar-expand-md navbar-light">
-            <Link href="/it-startup">
+            <Link href="/">
               <a onClick={toggleNavbar} className="navbar-brand">
-                <img src="/images/logo-white.png" alt="logo" />
+                <img src="/images/logo.png" alt="logo" />
               </a>
             </Link>
 
@@ -57,55 +58,7 @@ const NavbarStyleFour = () => {
             </button>
 
             <div className={classOne} id="navbarSupportedContent">
-              <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                  <Link href="/hosting" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Хостинг
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/it-startup" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Разработка
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/machine-learning" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Телефония
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/bigdata-analytics" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Аудит
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/digital-agency" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Цифровое агенство
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/contact" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Контакты
-                    </a>
-                  </Link>
-                </li>
-              </ul>
+              <NavbarUl />
             </div>
           </nav>
         </div>

@@ -1,33 +1,33 @@
-import React from 'react';
-import Navbar from "@/components/_App/Navbar";
-import Footer from "@/components/_App/Footer";
-import PageBanner from '@/components/Common/PageBanner'; 
-import Feedback from '@/components/Common/Feedback'; 
-import FeedbackStyleTwo from '@/components/Common/FeedbackStyleTwo';
-import FeedbackStyleThree from '@/components/Common/FeedbackStyleThree';
-import FeedbackStyleFour from '@/components/Common/FeedbackStyleFour';
-import FeedbackStyleFive from '@/components/Common/FeedbackStyleFive';
- 
+import React from "react";
+import Navbar from "@components/_App/Navbar";
+import Footer from "@components/_App/Footer";
+import PageBanner from "@components/Common/PageBanner";
+import Feedback from "@components/Common/Feedback";
+import FeedbackStyleTwo from "@components/Common/FeedbackStyleTwo";
+import FeedbackStyleThree from "@components/Common/FeedbackStyleThree";
+import FeedbackStyleFour from "@components/Common/FeedbackStyleFour";
+import FeedbackStyleFive from "@components/Common/FeedbackStyleFive";
+
 const FeedbackPage = () => {
-    return (
-        <>
-            <Navbar />
+  return (
+    <>
+      <Navbar />
 
-            <PageBanner pageTitle="Feedback or Testimonials" />
+      <PageBanner pageTitle="Feedback or Testimonials" />
 
-            <Feedback />
+      <Feedback />
 
-            <FeedbackStyleTwo />
+      <FeedbackStyleTwo />
 
-            <FeedbackStyleThree />
+      <FeedbackStyleThree />
 
-            <FeedbackStyleFour />
+      <FeedbackStyleFour />
 
-            <FeedbackStyleFive />
+      <FeedbackStyleFive />
 
-            <Footer />
-        </>
-    )
-}
+      <Footer />
+    </>
+  );
+};
 
 export default FeedbackPage;
