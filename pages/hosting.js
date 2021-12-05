@@ -1,5 +1,4 @@
 import React from "react";
-import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
 import MainBanner from "@/components/Hosting/MainBanner";
 import TopFeatures from "@/components/Hosting/TopFeatures";
 import DomainSearch from "@/components/Hosting/DomainSearch";
@@ -10,12 +9,18 @@ import Partner from "@/components/Common/Partner";
 import Features from "@/components/Hosting/Features";
 import BlogPost from "@/components/Common/BlogPost";
 import CTA from "@/components/Common/CTA";
-import Footer from "@/components/_App/Footer";
+
+export const getStaticProps = () => {
+  return {
+    props: {
+      transparent: true,
+    },
+  };
+};
 
 const Hosting = () => {
   return (
     <>
-      <NavbarStyleTwo />
       <MainBanner />
       <TopFeatures />
       <DomainSearch />
@@ -28,7 +33,6 @@ const Hosting = () => {
       <Features />
       <BlogPost />
       <CTA />
-      <Footer />
     </>
   );
 };

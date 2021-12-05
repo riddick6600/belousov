@@ -9,8 +9,6 @@ import ContactForm from "@/components/Contact/ContactForm";
 const Contact = () => {
   return (
     <>
-      <Navbar />
-
       <PageBanner pageTitle="Контакты" />
 
       <ContactInfo />
@@ -18,8 +16,6 @@ const Contact = () => {
       {/* <GoogleMap /> */}
 
       {/* <ContactForm /> */}
-
-      <Footer />
     </>
   );
 };
