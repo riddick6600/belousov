@@ -10,15 +10,18 @@ const MainBanner = () => {
             <div className="row h-100 justify-content-center align-items-center">
               <div className="col-lg-5">
                 <div className="hero-content">
-                  <h1>Облачные IT решения от профессионалов</h1>
+                  <h1>WEB разработка</h1>
+                  <h1>по вашим правилам</h1>
                   <p>
-                    Мы с Криюхой сделаем вам сайт, поднимем облачную
-                    архитектуру, забабахаем бота, но только, если вы мужик из
-                    кальянной!
+                    Сайты, Сервисы, Приложения, Боты, Скраперы
+                    <br />
+                    Разработка, Поддержка
+                    <br />
+                    Администрирование, Аудит
                   </p>
 
                   <Link href="/contact">
-                    <a className="btn btn-primary">Перезвоните мне</a>
+                    <a className="btn btn-secondary">Перезвоните мне</a>
                   </Link>
                 </div>
               </div>

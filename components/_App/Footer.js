@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import * as Icon from "react-feather";
+import { NAME } from "@constants";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6">
             <div className="single-footer-widget">
               <div className="logo">
-                <Link href="/it-startup">
+                <Link href="/">
                   <a>
                     <img src="/images/logo.png" alt="logo" />
                   </a>
@@ -23,25 +24,30 @@ const Footer = () => {
 
           <div className="col-lg-3 col-md-6">
             <div className="single-footer-widget pl-5">
-              <h3>Компания</h3>
+              <h3>Digital</h3>
               <ul className="list">
+                <li>
+                  <Link href="/development">
+                    <a>Разработка</a>
+                  </Link>
+                </li>
                 <li>
                   <Link href="/hosting">
                     <a>Хостинг</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/it-startup">
-                    <a>Разработка</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/machine-learning">
+                  <Link href="/phone">
                     <a>Телефония</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/bigdata-analytics">
+                  <Link href="/design">
+                    <a>Дизайн</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/audit">
                     <a>Аудит</a>
                   </Link>
                 </li>
@@ -54,8 +60,8 @@ const Footer = () => {
               <h3>Поддержка</h3>
               <ul className="list">
                 <li>
-                  <Link href="/contacts">
-                    <a>Контакты</a>
+                  <Link href="/repair">
+                    <a>Ремонт</a>
                   </Link>
                 </li>
               </ul>
@@ -65,7 +71,6 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6">
             <div className="single-footer-widget">
               <h3>Контакты</h3>
-
               <ul className="footer-contact-info">
                 <li>
                   <Icon.Mail />
@@ -81,7 +86,9 @@ const Footer = () => {
 
           <div className="col-lg-12 col-md-12">
             <div className="copyright-area">
-              <p>Copyright &copy; {currentYear} ИП Белоусов</p>
+              <p>
+                Copyright &copy; {currentYear} {NAME}
+              </p>
             </div>
           </div>
         </div>

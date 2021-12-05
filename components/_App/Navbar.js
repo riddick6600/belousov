@@ -1,10 +1,8 @@
 import React from "react";
-import Link from "@/utils/ActiveLink";
-import * as Icon from "react-feather";
-import { useSelector } from "react-redux";
+import Link from "@utils/ActiveLink";
+import NavbarUl from "./NavbarUl";
 
-const Navbar = () => {
-  const cart = useSelector((state) => state.cart);
+const Navbar = ({ transparent }) => {
   const [menu, setMenu] = React.useState(true);
 
   const toggleNavbar = () => {
@@ -29,12 +27,16 @@ const Navbar = () => {
     ? "navbar-toggler navbar-toggler-right collapsed"
     : "navbar-toggler navbar-toggler-right";
 
+  const headerClassName = transparent
+    ? "headroom navbar-style-two"
+    : "headroom";
+
   return (
-    <header id="header" className="headroom">
+    <header id="header" className={headerClassName}>
       <div className="startp-nav">
         <div className="container">
           <nav className="navbar navbar-expand-md navbar-light">
-            <Link href="/it-startup">
+            <Link href="/">
               <a onClick={toggleNavbar} className="navbar-brand">
                 <img src="/images/logo.png" alt="logo" />
               </a>
@@ -56,55 +58,7 @@ const Navbar = () => {
             </button>
 
             <div className={classOne} id="navbarSupportedContent">
-              <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                  <Link href="/hosting" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Хостинг
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/it-startup" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Разработка
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/machine-learning" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Телефония
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/bigdata-analytics" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Аудит
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/digital-agency" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Цифровое агенство
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/contact" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      Контакты
-                    </a>
-                  </Link>
-                </li>
-              </ul>
+              <NavbarUl />
             </div>
           </nav>
         </div>
