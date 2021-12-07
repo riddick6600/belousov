@@ -62,22 +62,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
@@ -100,22 +100,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
@@ -138,22 +138,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
@@ -176,22 +176,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
@@ -214,22 +214,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
@@ -252,22 +252,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
@@ -290,22 +290,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
@@ -328,22 +328,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
@@ -366,22 +366,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
@@ -404,22 +404,22 @@ const Team = () => {
 
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                     <Icon.Facebook />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/" target="_blank">
+                                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                     <Icon.Twitter />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                     <Icon.Linkedin />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gitlab.com/" target="_blank">
+                                <a href="https://www.gitlab.com/" target="_blank" rel="noreferrer">
                                     <Icon.Gitlab />
                                 </a>
                             </li>
