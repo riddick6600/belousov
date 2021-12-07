@@ -79,13 +79,13 @@ const NavbarStyleTwo = () => {
                   </Link>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link href="/bigdata-analytics" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
                       Аудит
                     </a>
                   </Link>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link href="/digital-agency" activeClassName="active">

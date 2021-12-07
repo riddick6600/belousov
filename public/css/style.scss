@@ -386,7 +386,7 @@ label {
   margin-bottom: 10px;
 }
 .form-control {
-  height: 45px;
+  height: 51px;
   padding: 10px;
   font-size: 14px;
   color: $black-color;
@@ -6931,9 +6931,6 @@ Contact CSS
 }
 .contact-form {
   .invalid-feedback {
-    margin-top: 10px;
-  }
-  .btn {
     margin-top: 10px;
   }
   .form-check {

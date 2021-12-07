@@ -24,16 +24,16 @@ const NavbarUl = () => {
           <a className="nav-link">Дизайн</a>
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link href="/audit" activeClassName="active">
           <a className="nav-link">Аудит</a>
         </Link>
-      </li>
-      <li className="nav-item">
+      </li> */}
+      {/* <li className="nav-item">
         <Link href="/repair" activeClassName="active">
           <a className="nav-link">Ремонт</a>
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <Link href="/contact" activeClassName="active">
           <a className="nav-link">Контакты</a>

@@ -25,7 +25,6 @@ const DigitalAgency = () => {
       <FeedbackStyleThree />
       <BlogPostStyleTwo />
       <CTAStyleTwo />
-      <Footer />
     </>
   );
 };

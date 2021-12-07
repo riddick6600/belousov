@@ -47,16 +47,21 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/contact">
+                    <a>Контакты</a>
+                  </Link>
+                </li>
+                {/* <li>
                   <Link href="/audit">
                     <a>Аудит</a>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6">
-            <div className="single-footer-widget">
+            {/* <div className="single-footer-widget">
               <h3>Поддержка</h3>
               <ul className="list">
                 <li>
@@ -65,7 +70,7 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           <div className="col-lg-3 col-md-6">
@@ -74,11 +79,15 @@ const Footer = () => {
               <ul className="footer-contact-info">
                 <li>
                   <Icon.Mail />
-                  <a href="mailto:admin@za-it.ru">admin@za-it.ru</a>
+                  <Link href="mailto:admin@za-it.ru">
+                    <a>admin@za-it.ru</a>
+                  </Link>
                 </li>
                 <li>
                   <Icon.PhoneCall />
-                  <a href="tel:+7 903 295-02-34">+7 903 295-02-34</a>
+                  <Link href="tel:+7 903 295-02-34">
+                    <a>+7 903 295-02-34</a>
+                  </Link>
                 </li>
               </ul>
             </div>
