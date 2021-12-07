@@ -7,10 +7,8 @@ const Contact = () => {
   return (
     <>
       <PageBanner pageTitle="Контакты" />
-
-      <ContactInfo />
-
       <ContactForm />
+      <ContactInfo />
     </>
   );
 };

@@ -23,6 +23,19 @@ const Footer = () => {
           </div>
 
           <div className="col-lg-3 col-md-6">
+            {/* <div className="single-footer-widget">
+              <h3>Поддержка</h3>
+              <ul className="list">
+                <li>
+                  <Link href="/repair">
+                    <a>Ремонт</a>
+                  </Link>
+                </li>
+              </ul>
+            </div> */}
+          </div>
+
+          <div className="col-lg-3 col-md-6">
             <div className="single-footer-widget pl-5">
               <h3>Digital</h3>
               <ul className="list">
@@ -58,19 +71,6 @@ const Footer = () => {
                 </li> */}
               </ul>
             </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6">
-            {/* <div className="single-footer-widget">
-              <h3>Поддержка</h3>
-              <ul className="list">
-                <li>
-                  <Link href="/repair">
-                    <a>Ремонт</a>
-                  </Link>
-                </li>
-              </ul>
-            </div> */}
           </div>
 
           <div className="col-lg-3 col-md-6">

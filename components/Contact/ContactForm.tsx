@@ -9,8 +9,8 @@ import baseUrl from "../../utils/baseUrl";
 
 const alertContent = () => {
   MySwal.fire({
-    title: "Congratulations!",
-    text: "Your message was successfully send and will back to you soon",
+    title: "Мы скоро вам перезвоним!",
+    // text: "Your message was successfully send and will back to you soon",
     icon: "success",
     timer: 2000,
     timerProgressBar: true,
