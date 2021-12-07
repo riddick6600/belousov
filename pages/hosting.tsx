@@ -22,7 +22,7 @@ const Hosting = () => {
   return (
     <>
       <MainBanner />
-      <TopFeatures />
+      {/* <TopFeatures />
       <DomainSearch />
       <WhyChoose />
       <PricingStyleTwo />
@@ -32,7 +32,7 @@ const Hosting = () => {
       </div>
       <Features />
       <BlogPost />
-      <CTA />
+      <CTA /> */}
     </>
   );
 };

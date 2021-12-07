@@ -16,13 +16,13 @@ const Repair = () => {
       <MainBanner />
       {/* <PartnerStyleTwo /> */}
       {/* <AboutUsContent /> */}
-      <Services />
+      {/* <Services />
       <CTA />
       <FunFactsArea />
       <Team />
       <Feedback />
       <WhyChoose />
-      <BlogPost />
+      <BlogPost /> */}
     </>
   );
 };

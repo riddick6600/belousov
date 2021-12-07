@@ -9,7 +9,7 @@ import baseUrl from "../../utils/baseUrl";
 
 const alertContent = () => {
   MySwal.fire({
-    title: "Мы скоро вам перезвоним!",
+    title: "Мы скоро перезвоним!",
     // text: "Your message was successfully send and will back to you soon",
     icon: "success",
     timer: 2000,
@@ -60,14 +60,17 @@ const ContactForm = () => {
         </div>
 
         <div className="row align-items-center">
-          <div className="col-lg-6 col-md-12">
+          {/* <div className="col-lg-6 col-md-12">
             <img src="/images/contact-img.png" alt="image" />
-          </div>
+          </div> */}
 
-          <div className="col-lg-6 col-md-12">
+          <div className="col-lg-3"></div>
+
+          <div className="col-lg-6">
             <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
               <div className="row">
-                <div className="col-lg-6 col-md-6">
+                <div className="col-lg-3"></div>
+                <div className="col-lg-6">
                   <div className="form-group">
                     <input
                       type="tel"
@@ -76,6 +79,7 @@ const ContactForm = () => {
                       className="form-control"
                       value={contact.number}
                       onChange={handleChange}
+                      required
                     />
 
                     <div
@@ -87,7 +91,7 @@ const ContactForm = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-6 col-sm-6">
+                <div className="col-lg-12 col-sm-12 text-center">
                   <button type="submit" className="btn btn-primary">
                     Перезвоните мне
                   </button>

@@ -6,7 +6,7 @@ import ContactForm from "@components/Contact/ContactForm";
 const Contact = () => {
   return (
     <>
-      <PageBanner pageTitle="Контакты" />
+      {/* <PageBanner pageTitle="Мы вам перезвоним" /> */}
       <ContactForm />
       <ContactInfo />
     </>

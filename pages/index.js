@@ -19,14 +19,14 @@ const Index = () => {
       <MainBanner />
       {/* <Partner /> */}
       {/* <WhatWeOffer /> */}
-      <AboutUsContent />
-      <OurServices />
-      {/* <FunFactsArea /> */}
-      {/* <Projects /> */}
-      {/* <PricingStyleFour /> */}
+      {/* <AboutUsContent /> */}
+      {/* <OurServices />
+      <FunFactsArea />
+      <Projects />
+      <PricingStyleFour />
       <FeedbackStyleFour />
       <BlogCard />
-      {/* <Newsletter /> */}
+      <Newsletter /> */}
     </>
   );
 };

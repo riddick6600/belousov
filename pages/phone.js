@@ -16,15 +16,15 @@ const IOT = () => {
   return (
     <>
       <MainBanner />
-      <PartnerStyleTwo />
-      <OurServices />
-      <Cta />
+      {/* <PartnerStyleTwo /> */}
+      {/* <OurServices /> */}
+      {/* <Cta />
       <FunFactsArea />
       <Features />
       <TeamStyleTwo />
       <Feedback />
       <WhyWeAreBest />
-      <BlogPost />
+      <BlogPost /> */}
     </>
   );
 };

@@ -23,16 +23,16 @@ const Index = () => {
   return (
     <>
       <MainBanner />
-      <Features />
-      <ServicesArea />
-      <OurFeatures />
+      {/* <Features /> */}
+      {/* <ServicesArea /> */}
+      {/* <OurFeatures />
       <Team />
       <FunFactsArea />
       <RecentWorks />
       <PricingStyleOne />
       <Feedback />
       <Partner />
-      <BlogPost />
+      <BlogPost /> */}
     </>
   );
 };

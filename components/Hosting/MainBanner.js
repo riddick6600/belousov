@@ -20,7 +20,7 @@ const MainBanner = () => {
                     <li>SLA 99.666 %</li>
                   </ul>
 
-                  <p>TODO УКАЗАТЬ ЦЕНЫ</p>
+                  <p></p>
 
                   <Link href="/contact">
                     <a className="btn btn-primary">Перезвоните мне</a>
