@@ -1,5 +1,7 @@
 import React from "react";
 import * as Icon from "react-feather";
+import Link from "next/link";
+import { PHONE } from "@constants";
 
 const ContactInfo = () => {
   return (
@@ -15,9 +17,6 @@ const ContactInfo = () => {
               <p>
                 <a href="mailto:admin@za-it.ru">admin@za-it.ru</a>
               </p>
-              <p>
-                <a href="mailto:support@za-it.ru">support@za-it.ru</a>
-              </p>
             </div>
           </div>
 
@@ -28,10 +27,9 @@ const ContactInfo = () => {
               </div>
               <h3></h3>
               <p>
-                <a href="tel:+7 903 295-02-34">+7 903 295-02-34</a>
-              </p>
-              <p>
-                <a href="tel:+7 999 823-12-00">+7 999 823-12-00</a>
+                <Link href={`tel:${PHONE}`}>
+                  <a>{PHONE}</a>
+                </Link>
               </p>
             </div>
           </div>

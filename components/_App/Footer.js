@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import * as Icon from "react-feather";
-import { NAME } from "@constants";
+import { NAME, PHONE } from "@constants";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -85,8 +85,8 @@ const Footer = () => {
                 </li>
                 <li>
                   <Icon.PhoneCall />
-                  <Link href="tel:+7 903 295-02-34">
-                    <a>+7 903 295-02-34</a>
+                  <Link href={`tel:${PHONE}`}>
+                    <a>{PHONE}</a>
                   </Link>
                 </li>
               </ul>
