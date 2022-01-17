@@ -10,12 +10,11 @@ const MainBanner = () => {
             <div className="row h-100 justify-content-center align-items-center">
               <div className="col-lg-5">
                 <div className="hero-content">
-                  <h1>WEB разработка</h1>
-                  <h1>по вашим правилам</h1>
+                  <h1>Сети и автоматизация</h1>
                   <p>
-                    Сайты, Сервисы, Приложения, Боты, Скраперы
-                    <br />
-                    Аудит, Поддержка, Администрирование
+                    Развернем и настроим серверы, Wi-Fi, ЛВС,
+                    видеоконференцсвязь. Устраним рутину по развертыванию
+                    рабочих мест.
                   </p>
 
                   <Link href="/contact">

@@ -16,7 +16,7 @@ const DigitalAgency = () => {
   return (
     <>
       <MainBanner />
-      {/* <WhatWeOffer />
+      <WhatWeOffer />
       <AboutUsContent />
       <OurServices />
       <DigitalAgencyFunFacts />
@@ -24,7 +24,7 @@ const DigitalAgency = () => {
       <PricingStyleThree />
       <FeedbackStyleThree />
       <BlogPostStyleTwo />
-      <CTAStyleTwo /> */}
+      <CTAStyleTwo />
     </>
   );
 };

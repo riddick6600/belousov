@@ -10,17 +10,11 @@ const MainBanner = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12">
                 <div className="hosting-banner-content">
-                  <h1>
-                    Лучший хостинг <br /> для ваших приложений
-                  </h1>
-                  <ul>
-                    <li>Подбор домена</li>
-                    <li>Бесплатный SSL сертификат</li>
-                    <li>Поддержка 24/7</li>
-                    <li>SLA 99.666 %</li>
-                  </ul>
-
-                  <p></p>
+                  <h1>ПО и оборудование</h1>
+                  <p>
+                    Подберем и установим любое ПО под вашу задачу и подготовим
+                    оборудование.
+                  </p>
 
                   <Link href="/contact">
                     <a className="btn btn-primary">Перезвоните мне</a>

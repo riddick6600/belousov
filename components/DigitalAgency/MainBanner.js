@@ -8,14 +8,10 @@ const MainBanner = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12">
             <div className="agency-banner-content">
-              <h1>
-                Дизайн <br />
-                для ваших клиентов
-              </h1>
+              <h1>Круглосуточная поддержка</h1>
               <p>
-                Сайты, Лендинги, Приложения
-                <br />
-                Логотипы, Буклеты, Брендбуки
+                Специалисты на связи 24/7 по всем каналам связи. Любая
+                ИТ-поддержка: онлайн и с выездом.
               </p>
 
               <Link href="/contact">

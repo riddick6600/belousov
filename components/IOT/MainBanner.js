@@ -6,8 +6,11 @@ const MainBanner = () => {
     <div className="iot-main-banner">
       <div className="container">
         <div className="iot-banner-content">
-          <h1>SIP-Телефония для вашего бизнеса</h1>
-          <p>Настроим АТС, Создадим скрипты, ботов</p>
+          <h1>Безопасность и видеонаблюдение</h1>
+          <p>
+            Установим СКУД, обеспечим работу датчиков контроля. Обеспечим
+            контроль подозрительного поведения.
+          </p>
 
           <Link href="/contact">
             <a className="btn btn-primary">Перезвоните мне</a>

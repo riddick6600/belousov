@@ -14,15 +14,15 @@ const Repair = () => {
   return (
     <>
       <MainBanner />
-      {/* <PartnerStyleTwo /> */}
-      {/* <AboutUsContent /> */}
-      {/* <Services />
+      <PartnerStyleTwo />
+      <AboutUsContent />
+      <Services />
       <CTA />
       <FunFactsArea />
       <Team />
       <Feedback />
       <WhyChoose />
-      <BlogPost /> */}
+      <BlogPost />
     </>
   );
 };

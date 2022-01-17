@@ -17,16 +17,16 @@ const Index = () => {
   return (
     <>
       <MainBanner />
-      {/* <Partner /> */}
-      {/* <WhatWeOffer /> */}
-      {/* <AboutUsContent /> */}
-      {/* <OurServices />
+      <Partner />
+      <WhatWeOffer />
+      <AboutUsContent />
+      <OurServices />
       <FunFactsArea />
       <Projects />
       <PricingStyleFour />
       <FeedbackStyleFour />
       <BlogCard />
-      <Newsletter /> */}
+      <Newsletter />
     </>
   );
 };

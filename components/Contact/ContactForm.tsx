@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import Link from "next/link";
 import axios from "axios";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
-import baseUrl from "../../utils/baseUrl";
+import { IMaskInput } from "react-imask";
 
 const alertContent = () => {
   MySwal.fire({
@@ -26,23 +25,20 @@ const INITIAL_STATE = {
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
   const {
-    register,
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setContact((prevState) => ({ ...prevState, [name]: value }));
+
+  const handleChange = (value) => {
+    setContact((prevState) => ({ ...prevState, number: value }));
   };
 
   const onSubmit = async (e) => {
-    // e.preventDefault();
     try {
       const url = `https://app2.za-it.ru/api/contact`;
       const { number } = contact;
       const payload = { number };
       await axios.post(url, payload);
-      console.log(url);
       setContact(INITIAL_STATE);
       alertContent();
     } catch (error) {
@@ -72,13 +68,14 @@ const ContactForm = () => {
                 <div className="col-lg-3"></div>
                 <div className="col-lg-6">
                   <div className="form-group">
-                    <input
-                      type="tel"
+                    <IMaskInput
+                      mask="+{7}(000)000-00-00"
+                      unmask={true}
                       name="number"
                       placeholder="Ваш телефон"
                       className="form-control"
                       value={contact.number}
-                      onChange={handleChange}
+                      onAccept={handleChange}
                       required
                     />
 
