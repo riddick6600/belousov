@@ -69,6 +69,7 @@ const ContactForm = () => {
                 <div className="col-lg-6">
                   <div className="form-group">
                     <IMaskInput
+                      // @ts-ignore
                       mask="+{7}(000)000-00-00"
                       unmask={true}
                       name="number"
