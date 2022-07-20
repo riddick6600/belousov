@@ -1,6 +1,6 @@
 {
   "name": "za-it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "za-it.ru web site",
   "scripts": {
     "dev": "next dev",
