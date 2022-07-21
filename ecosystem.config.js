@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "Next",
-      cwd: "/opt/belousov",
+      cwd: "/projects/belousov",
       script: "npm start",
       autorestart: true,
       env: {

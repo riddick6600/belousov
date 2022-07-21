@@ -38,7 +38,7 @@ const ContactForm = () => {
   const onSubmit = async (e) => {
     // e.preventDefault();
     try {
-      const url = `https://app2.za-it.ru/api/contact`;
+      const url = `/api/contact`;
       const { number } = contact;
       const payload = { number };
       await axios.post(url, payload);
