@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import * as Icon from "react-feather";
 
 const ServicesArea = () => {
@@ -14,6 +15,10 @@ const ServicesArea = () => {
                 <p>Service Desk</p>
                 <p>Техподдержка 1С</p>
                 <p>Выезды на объект</p>
+                <br />
+                <Link href="/contact">
+                  <a className="btn btn-secondary">Оставить заявку</a>
+                </Link>
               </div>
             </div>
 
