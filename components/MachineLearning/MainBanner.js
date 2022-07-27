@@ -8,18 +8,14 @@ const MainBanner = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12">
             <div className="hero-content">
-              <h1>Digital решения</h1>
-              <h1>для вашего бизнеса</h1>
-              <p>
-                Облачные решения, Хостинг, Виртуализация
-                <br />
-                Разработка, Администрирование, Аудит
-                <br />
-                Ремонт, Поддержка
-              </p>
-
+              <h1>Разворачиваем инфраструктуры</h1>
+              <h3>
+                Администрируем серверы <br />
+                Мониторим системы 24/7
+              </h3>
+              <p>За лучшим ИТ для вашего бизнеса — к нам</p>
               <Link href="/contact">
-                <a className="btn btn-secondary">Перезвоните мне</a>
+                <a className="btn btn-secondary">Оставить заявку</a>
               </Link>
             </div>
           </div>

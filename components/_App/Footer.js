@@ -40,35 +40,10 @@ const Footer = () => {
               <h3>Digital</h3>
               <ul className="list">
                 <li>
-                  <Link href="/development">
-                    <a>Разработка</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/hosting">
-                    <a>Хостинг</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/phone">
-                    <a>Телефония</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/design">
-                    <a>Дизайн</a>
-                  </Link>
-                </li>
-                <li>
                   <Link href="/contact">
                     <a>Контакты</a>
                   </Link>
                 </li>
-                {/* <li>
-                  <Link href="/audit">
-                    <a>Аудит</a>
-                  </Link>
-                </li> */}
               </ul>
             </div>
           </div>
