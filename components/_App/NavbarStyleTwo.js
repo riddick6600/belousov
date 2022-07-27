@@ -34,7 +34,7 @@ const NavbarStyleTwo = () => {
           <nav className="navbar navbar-expand-md navbar-light">
             <Link href="/">
               <a onClick={toggleNavbar} className="navbar-brand">
-                <img src="/images/logo.png" alt="logo" />
+                <img src="/images/logo.svg" alt="logo" />
               </a>
             </Link>
 
