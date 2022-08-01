@@ -393,7 +393,7 @@ label {
 }
 .section-title .bar {
   height: 5px;
-  width: 90px;
+  width: 186px;
   background: #cdf1d8;
   margin: 20px auto;
   position: relative;
@@ -781,6 +781,25 @@ Navbar CSS
   }
   #header.headroom.is-sticky {
     border-bottom: none;
+  }
+  .section-title .bar,
+  .ml-about-content div.bar {
+    width: auto;
+  }
+  div.services-content .section-title {
+    text-align: center;
+  }
+  .trs_center {
+    text-align: center;
+  }
+  .trs_center .single-footer-widget ul.footer-contact-info li {
+    padding-left: 0;
+  }
+  .trs_center .single-footer-widget ul.footer-contact-info li svg  {
+   display: none;
+  }
+  .iot-features-content {
+    text-align: center;
   }
 }
 /*================================================
@@ -1403,6 +1422,7 @@ Services CSS
 .services-area {
   overflow: hidden;
 }
+
 
 .services-content .section-title {
   text-align: left;
@@ -7261,6 +7281,7 @@ IoT CTA CSS
 /*================================================
 IoT Features CSS
 =================================================*/
+
 .iot-features-content h3 {
   font-size: 26px;
   margin-bottom: 20px;
@@ -7651,7 +7672,7 @@ ML About CSS
 }
 .ml-about-content .bar {
   height: 5px;
-  width: 90px;
+  width: 308px;
   background: #cdf1d8;
   margin: 20px 0;
   position: relative;

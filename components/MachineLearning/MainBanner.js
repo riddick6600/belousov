@@ -9,10 +9,10 @@ const MainBanner = () => {
           <div className="col-lg-6 col-md-12">
             <div className="hero-content">
               <h1>Разворачиваем инфраструктуры</h1>
-              <h3>
+              <h2>
                 Администрируем серверы <br />
                 Мониторим системы 24/7
-              </h3>
+              </h2>
               <p>За лучшим ИТ для вашего бизнеса — к нам</p>
               <Link href="/contact">
                 <a className="btn btn-secondary">Оставить заявку</a>
