@@ -15,7 +15,7 @@ const AboutUsContent = () => {
           <div className="col-lg-6 col-md-12">
             <div className="ml-about-content">
               {/* <span className="sub-title">ПО и оборудование</span> */}
-              <h2>ПО и оборудование</h2>
+              <h3>ПО и Оборудование</h3>
               <div className="bar"></div>
               <p>
                 Инсталляция серверного и пользовательского программного
